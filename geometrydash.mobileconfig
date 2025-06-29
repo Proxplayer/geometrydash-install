@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
-    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>PayloadContent</key>
-    <array>
-      <dict>
-        <key>PayloadType</key>
-        <string>com.apple.webClip.managed</string>
-        <key>PayloadDisplayName</key>
-        <string>Geometry Dash</string>
-        <key>URL</key>
-        <string>itms-services://?action=download-manifest&amp;url=https://proxplayer.github.io/geometrydash-install/manifest.plist</string>
-        <key>IsRemovable</key>
-        <true/>
-      </dict>
-    </array>
-    <key>PayloadOrganization</key>
-    <string>Kendi Adın</string>
-    <key>PayloadType</key>
-    <string>Configuration</string>
-    <key>PayloadUUID</key>
-    <string>12345678-1234-1234-1234-123456789012</string>
-    <key>PayloadVersion</key>
-    <integer>1</integer>
-  </dict>
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.webClip.managed</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.proxplayer.geometrydash.profile</string>
+      <key>PayloadUUID</key>
+      <string>cca072ef-5c2d-462a-a802-2bee89ce6b8f</string>
+      <key>PayloadDisplayName</key>
+      <string>Geometry Dash Install</string>
+      <key>Label</key>
+      <string>Install Geometry Dash</string>
+      <key>URL</key>
+      <string>itms-services://?action=download-manifest&amp;url=https://raw.githubusercontent.com/Proxplayer/geometrydash-install/refs/heads/main/manifest.plist</string>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Geometry Dash Profile</string>
+  <key>PayloadIdentifier</key>
+  <string>com.proxplayer.geometrydash</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>98863302-2b98-48af-8d2e-9d5acb9afb53</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
 </plist>
